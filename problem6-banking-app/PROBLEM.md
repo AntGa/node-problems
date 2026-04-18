@@ -46,7 +46,7 @@ Build an Express app and implement a `POST /pin` endpoint that validates a PIN s
 
 ## Example Input / Output
 
-Sample requests are in **`examples/data.js`**. Start your server, run `node examples/data.js`, then record the responses in **`examples/output.json`**.
+**`examples/data.js`** shows example request shapes to use when manually testing your API.
 
 ## Where to Store Your Work
 
