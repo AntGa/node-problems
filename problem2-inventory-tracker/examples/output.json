@@ -1,0 +1,8 @@
+{
+  "create_product": {},
+  "create_low_stock_product": {},
+  "get_all_products": [],
+  "update_stock": {},
+  "not_found": {},
+  "invalid_input": {}
+}
