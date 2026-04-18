@@ -34,12 +34,6 @@ Build an Express app with a rate-limiting middleware that:
   { "error": "userId is required." }
   ```
 
-## Technical Considerations
-
-- Use an in-memory store (plain JS object) — no database required
-- Do not use any third-party rate-limiting libraries (e.g. `express-rate-limit`)
-- The middleware must be reusable and applied to `GET /api/data`
-
 ## Endpoint
 
 ```

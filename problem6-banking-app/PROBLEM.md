@@ -38,19 +38,6 @@ Build an Express app and implement a `POST /pin` endpoint that validates a PIN s
 | Negative number | `"PIN cannot be a negative number."` |
 | Repeating digits | `"PIN must have all unique digits."` |
 
-## Technical Considerations
-
-- Accept `pin` as either a string or number in the request body — normalize to string for validation
-- Validate in the order listed above (length check before uniqueness check)
-- No storage required — just validate and respond
-
 ## Example Input / Output
 
 **`examples/data.js`** shows example request shapes to use when manually testing your API.
-
-## Where to Store Your Work
-
-Write your solution in the following files:
-
-- **`src/routes/pin.js`** — implement the `POST /pin` route handler and validation logic
-- **`src/app.js`** — register the pin router

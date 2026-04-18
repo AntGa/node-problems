@@ -30,20 +30,6 @@ Build an Express API with an Apartment model. Implement a pricing route that dyn
 - If an apartment is not found, respond with HTTP `404` and `{ "error": "Apartment not found." }`
 - Invalid input on creation should respond with HTTP `400` and a descriptive error message
 
-## Technical Considerations
-
-- Use an in-memory array — no database required
-- Seasonal multiplier is based on the **current month** at time of request
-- Round the final price to the nearest whole number
-- Price constraints are applied **after** multipliers
-
 ## Example Input / Output
 
 **`examples/data.js`** shows example request shapes to use when manually testing your API.
-
-## Where to Store Your Work
-
-Write your solution in the following files:
-
-- **`src/routes/apartments.js`** — implement all apartment route handlers and pricing logic
-- **`src/app.js`** — register the apartments router

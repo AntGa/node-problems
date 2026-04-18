@@ -32,19 +32,6 @@ Build an Express API with a Task model that can:
   - `priority` must be one of `"low"`, `"medium"`, `"high"`
   - Invalid input should respond with HTTP `400` and a descriptive error message
 
-## Technical Considerations
-
-- Use an in-memory array — no database required
-- `urgencyScore` is computed at read time using today's date — do not store it
-- Due date comparison should be based on the start of the day (midnight), not exact time
-
 ## Example Input / Output
 
 **`examples/data.js`** shows example request shapes to use when manually testing your API.
-
-## Where to Store Your Work
-
-Write your solution in the following files:
-
-- **`src/routes/tasks.js`** — implement all task route handlers and urgency score logic
-- **`src/app.js`** — register the tasks router

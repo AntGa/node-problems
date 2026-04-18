@@ -31,19 +31,6 @@ Build an Express API with an Apartment model that:
 - `viewCount` — increment inside the `GET /apartments/:id` handler, every time the apartment detail page is fetched
 - `popularityScore` — increment inside the `POST /apartments/:id/bookings` handler, every time a confirmed booking is made
 
-## Technical Considerations
-
-- Use an in-memory array — no database required
-- `viewCount` and `popularityScore` are stored on the apartment object, not computed
-- The `/views` and `/popularity` endpoints are read-only — they do not modify state
-
 ## Example Input / Output
 
 **`examples/data.js`** shows example request shapes to use when manually testing your API.
-
-## Where to Store Your Work
-
-Write your solution in the following files:
-
-- **`src/routes/apartments.js`** — implement all apartment route handlers
-- **`src/app.js`** — register the apartments router

@@ -28,19 +28,6 @@ Build an Express API with a Product model that can:
   - If a product `id` is not found, respond with HTTP `404` and `{ "error": "Product not found." }`
   - Invalid input should respond with HTTP `400` and a descriptive error message
 
-## Technical Considerations
-
-- Use an in-memory array as the data store — no database required
-- Generate product IDs using an incrementing counter (1, 2, 3, ...)
-- `lowStock` is a computed field — do not store it, derive it on read
-
 ## Example Input / Output
 
 **`examples/data.js`** shows example request shapes to use when manually testing your API.
-
-## Where to Store Your Work
-
-Write your solution in the following files:
-
-- **`src/routes/products.js`** — implement all product route handlers
-- **`src/app.js`** — register the products router
