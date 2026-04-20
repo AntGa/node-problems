@@ -13,9 +13,9 @@ These are designed to simulate the format and difficulty of timed backend assess
 | 1 | `problem1-rate-limiter` | API Rate Limiter — in-memory request tracking, 429 responses | 30 min |
 | 2 | `problem2-inventory-tracker` | Inventory Tracker — CRUD with computed `lowStock` field | 30 min |
 | 3 | `problem3-task-scheduler` | Task Scheduler — urgency score calculation with priority + due date | 30 min |
-| 4 | `problem4-dynamic-pricing-engine` | Dynamic Pricing Engine — seasonal and demand multipliers | 30 min |
-| 5 | `problem5-travel-accommodation-marketplace` | Accommodation Marketplace — viewCount and popularityScore tracking | 30 min |
-| 6 | `problem6-banking-app` | Banking App — PIN validation with multiple rules | 20 min |
+| 4 | `problem4-event-ticket-pricing` | Event Ticket Pricing — seasonal and demand multipliers | 30 min |
+| 5 | `problem5-food-truck-discovery` | Food Truck Discovery — viewCount and popularityScore tracking | 30 min |
+| 6 | `problem6-gym-locker` | Gym Locker — access code validation with multiple rules | 20 min |
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "name": "problem6-banking-app",
+  "name": "problem6-gym-locker",
   "version": "1.0.0",
   "description": "HackerRank-style challenge: Gym Locker Code Validator",
   "main": "src/index.js",

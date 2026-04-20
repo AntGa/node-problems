@@ -1,5 +1,5 @@
 {
-  "name": "problem4-dynamic-pricing-engine",
+  "name": "problem4-event-ticket-pricing",
   "version": "1.0.0",
   "description": "HackerRank-style challenge: Event Ticketing Dynamic Pricing",
   "main": "src/index.js",
