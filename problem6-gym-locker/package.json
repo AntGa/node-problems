@@ -1,7 +1,7 @@
 {
-  "name": "problem5-travel-accommodation-marketplace",
+  "name": "problem6-banking-app",
   "version": "1.0.0",
-  "description": "HackerRank-style challenge: Travel Accommodation Marketplace",
+  "description": "HackerRank-style challenge: Gym Locker Code Validator",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",

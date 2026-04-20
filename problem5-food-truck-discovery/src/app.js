@@ -1,9 +1,9 @@
 const express = require('express');
-const pinRouter = require('./routes/pin');
+const truckRouter = require('./routes/trucks');
 
 const app = express();
 app.use(express.json());
 
-app.use('/pin', pinRouter);
+app.use('/trucks', truckRouter);
 
 module.exports = app;

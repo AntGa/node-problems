@@ -1,7 +1,7 @@
 {
   "name": "problem4-dynamic-pricing-engine",
   "version": "1.0.0",
-  "description": "HackerRank-style challenge: Dynamic Pricing Engine",
+  "description": "HackerRank-style challenge: Event Ticketing Dynamic Pricing",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",

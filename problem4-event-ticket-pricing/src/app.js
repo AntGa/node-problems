@@ -1,9 +1,9 @@
 const express = require('express');
-const apartmentRouter = require('./routes/apartments');
+const eventRouter = require('./routes/events');
 
 const app = express();
 app.use(express.json());
 
-app.use('/apartments', apartmentRouter);
+app.use('/events', eventRouter);
 
 module.exports = app;

@@ -1,7 +1,7 @@
 {
-  "name": "problem6-banking-app",
+  "name": "problem5-travel-accommodation-marketplace",
   "version": "1.0.0",
-  "description": "HackerRank-style challenge: Banking App PIN Validator",
+  "description": "HackerRank-style challenge: Food Truck Discovery Platform",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
